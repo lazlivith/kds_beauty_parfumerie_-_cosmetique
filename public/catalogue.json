@@ -1,0 +1,210 @@
+[
+  {
+    "id": "PERF-001",
+    "universe": "parfum",
+    "name": "Bleu Intense",
+    "brand": "L'Atelier",
+    "marque_propre": true,
+    "category": "HOMME",
+    "description": "Un parfum boisé et frais, parfait pour toutes les occasions.",
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600&auto=format&fit=crop",
+    "inStock": true,
+    "notes_pyramide": [
+      "Bergamote",
+      "Poivre noir",
+      "Cèdre bleue"
+    ],
+    "gallery": [
+      "url1.jpg",
+      "url2.jpg"
+    ],
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 45
+      },
+      {
+        "size": "100ml",
+        "price": 75
+      }
+    ]
+  },
+  {
+    "id": "PERF-002",
+    "universe": "parfum",
+    "name": "Rose Céleste",
+    "brand": "L'Atelier",
+    "marque_propre": false,
+    "category": "FEMME",
+    "description": "Une fragrance florale douce et envoûtante, mêlant la rose à la vanille.",
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 55
+      },
+      {
+        "size": "100ml",
+        "price": 85
+      }
+    ]
+  },
+  {
+    "id": "PERF-003",
+    "universe": "parfum",
+    "name": "Oud Impérial",
+    "brand": "L'Atelier",
+    "marque_propre": false,
+    "category": "ÉDITIONS LIMITÉES",
+    "description": "L'élégance absolue avec des notes profondes de bois de oud et de cuir.",
+    "inStock": false,
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 95
+      },
+      {
+        "size": "100ml",
+        "price": 145
+      }
+    ]
+  },
+  {
+    "id": "PERF-004",
+    "universe": "parfum",
+    "name": "Vanille Dorée",
+    "brand": "L'Atelier",
+    "marque_propre": false,
+    "category": "FEMME",
+    "description": "Une explosion sucrée et chaleureuse pour un sillage inoubliable.",
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 60
+      },
+      {
+        "size": "100ml",
+        "price": 90
+      }
+    ]
+  },
+  {
+    "id": "PERF-005",
+    "universe": "parfum",
+    "name": "Sable Noir",
+    "brand": "L'Atelier",
+    "marque_propre": false,
+    "category": "HOMME",
+    "description": "Un caractère brut et épicé, avec des accords de poivre noir et vétiver.",
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 50
+      },
+      {
+        "size": "100ml",
+        "price": 80
+      }
+    ]
+  },
+  {
+    "id": "PERF-006",
+    "universe": "parfum",
+    "name": "Santal Royal",
+    "brand": "L'Atelier",
+    "marque_propre": true,
+    "category": "ÉDITIONS LIMITÉES",
+    "description": "La noblesse du bois de santal indien, pur et majestueux.",
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1587440871874-83d5867a5413?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 110
+      },
+      {
+        "size": "100ml",
+        "price": 160
+      }
+    ]
+  },
+  {
+    "id": "PERF-007",
+    "universe": "parfum",
+    "name": "Écorce Verte",
+    "brand": "L'Atelier",
+    "marque_propre": false,
+    "category": "HOMME",
+    "description": "Une promenade vivifiante dans une forêt humide après la pluie.",
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1590736969955-71cc94801759?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 40
+      },
+      {
+        "size": "100ml",
+        "price": 65
+      }
+    ]
+  },
+  {
+    "id": "PERF-008",
+    "universe": "parfum",
+    "name": "Fleur de Cristal",
+    "brand": "L'Atelier",
+    "marque_propre": false,
+    "category": "FEMME",
+    "description": "Luminosité et pureté incarnées dans un bouquet de fleurs blanches.",
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?q=80&w=600&auto=format&fit=crop",
+    "variants": [
+      {
+        "size": "50ml",
+        "price": 65
+      },
+      {
+        "size": "100ml",
+        "price": 95
+      }
+    ]
+  },
+  {
+    "id": "COSM-001",
+    "universe": "cosmetique",
+    "name": "Élixir Éclat Or Rose",
+    "brand": "LazeBeauty",
+    "marque_propre": true,
+    "category": "SERUM",
+    "description": "Un sérum précieux pour un teint instantanément lumineux.",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "inStock": true,
+    "contenance": "30ml",
+    "type_peau": "Toutes peaux",
+    "benefices": [
+      "Hydratation",
+      "Éclat"
+    ],
+    "conseils_utilisation": [
+      "Appliquer 3 gouttes matin et soir",
+      "Masser délicatement sur le visage et le cou"
+    ],
+    "ingredients_cles": [
+      "Or Rose 24k",
+      "Acide Hyaluronique"
+    ],
+    "variants": [
+      {
+        "size": "30ml",
+        "price": 45
+      }
+    ]
+  }
+]

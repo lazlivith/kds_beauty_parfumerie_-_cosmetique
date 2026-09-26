@@ -1,0 +1,121 @@
+/* tailwindcss v4 */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#FDFBF7] text-gray-900 font-sans antialiased selection:bg-black selection:text-white;
+  }
+
+  /* Police Serif pour les titres et éléments marqués */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* Police Sans-Serif pour le texte courant */
+  p,
+  span,
+  button,
+  input,
+  textarea,
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Empêcher le zoom automatique sur mobile lors du focus des inputs */
+  @media screen and (max-width: 768px) {
+
+    input,
+    select,
+    textarea {
+      font-size: 16px !important;
+    }
+  }
+}
+
+/* Animations personnalisées */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-zoom-in {
+    animation: zoomIn 2.2s ease-out forwards;
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+
+    to {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Scrollbar minimaliste */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D1D5DB;
+}
